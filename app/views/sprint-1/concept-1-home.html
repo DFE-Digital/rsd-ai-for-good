@@ -1,0 +1,44 @@
+{% extends "sprint-1/layouts/main-layout.html" %}
+
+{% set pageName="Home" %}
+
+{% block content %}
+
+<h2 class="govuk-heading-l">What can I help you with today?</h2>
+
+<div class="dfe-grid-container dfe-grid-container--two-col">
+  <div class="dfe-card">
+    <div class="dfe-card-container">
+      <h3 class="govuk-heading-m">
+        <a href="#" class="govuk-link govuk-link--no-visited-state dfe-card-link--header">Check new guidance</a>
+      </h3>
+      <p>Check new guidance before it's published e.g. for conflicts, inconsistencies and duplication</p>
+    </div>
+  </div>
+  <div class="dfe-card">
+    <div class="dfe-card-container">
+      <h3 class="govuk-heading-m">
+        <a href="#" class="govuk-link govuk-link--no-visited-state dfe-card-link--header">Check for out of date guidance</a>
+      </h3>
+      <p>Identify guidance that needs to be updated e.g. to reflect policy, organisational or technology changes</p>
+    </div>
+  </div>
+  <div class="dfe-card">
+    <div class="dfe-card-container">
+      <h3 class="govuk-heading-m">
+        <a href="#" class="govuk-link govuk-link--no-visited-state dfe-card-link--header">Audit guidance</a>
+      </h3>
+      <p>View reports on issues in live guidance e.g. conflicts, inconsistencies and duplication or out of date guidance</p>
+    </div>
+  </div>
+  <div class="dfe-card">
+    <div class="dfe-card-container">
+      <h3 class="govuk-heading-m">
+        <a href="#" class="govuk-link govuk-link--no-visited-state dfe-card-link--header">Knowledge base</a>
+      </h3>
+      <p>View the guidance documents in the knowledge base.</p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
